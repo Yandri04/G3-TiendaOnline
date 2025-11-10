@@ -18,17 +18,20 @@ Diseño y desarrollo
 ○ Un área destacada con una imagen (puede ser una imagen de portada
 de productos tecnológicos).
 ○ Un breve párrafo sobre la tienda.
+
 ● Catálogo de productos:  YANDRI CULQUI
 ○ Crear una sección que contenga al menos 5 productos con su nombre,
 imagen y precio.
 ○ Los productos deben mostrarse en un formato tipo "tarjeta" (puede ser
 un layout en grid o en flexbox).
+
 ● Carrito de compras: Javi fabo
 ○ Al lado de cada producto debe haber un botón que permita agregarlo al
 carrito.
 ○ El carrito debe estar visible en todo momento y mostrar los productos
 seleccionados, con un precio total actualizado.
 ○ Incluir una opción para eliminar productos del carrito.
+
 ● Contacto: Aritz
 ○ Debe contener una descripción con una dirección y un teléfono de
 contacto.
