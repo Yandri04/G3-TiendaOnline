@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+height:4em;
+width:auto;
+background-color:rgb(97, 95, 94);
+border-radius: 90px, 80px 90px 80px;
+    }
+
+#container li:hover{
+background-color:red;
+}
+
+
+#container li{
+    list-style-type: none;
+    float:left;
+    background-color:green;
+    margin: 1em;
+    margin-top: 0em;
+    height: 4em;
+    /* width: 3em; */
+    cursor:pointer;
+    text-align: center;
+
+}
