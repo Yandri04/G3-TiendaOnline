@@ -5,26 +5,48 @@
 }
 
 header{
-height:4em;
+height:4rem;
 width:auto;
 background-color:rgb(97, 95, 94);
-border-radius: 90px, 80px 90px 80px;
+/* border-radius: 90px, 80px 90px 80px; */
     }
 
-#container li:hover{
+.container li:hover {
 background-color:red;
 }
 
 
-#container li{
+.container li{
     list-style-type: none;
     float:left;
     background-color:green;
-    margin: 1em;
-    margin-top: 0em;
-    height: 4em;
+    margin: 0em 1rem 0em 1rem;
+    height: 4rem;
     /* width: 3em; */
     cursor:pointer;
     text-align: center;
+    padding: 0rem 1rem 0rem 1rem
+}
 
+
+a{
+    text-decoration: none;
+    color:black;
+    /* height:4rem; */
+    line-height: 3.5rem;
+}
+
+
+
+.container-shop{
+    position:absolute;
+    width:60rem;
+    left:0;
+    right:0;
+    margin: 0 auto;
+    height:30rem;
+    background-color:rgba(255, 192, 203, 0.555);
+    top:9rem;
+    border: solid 0.1rem;
+    border-radius:1%;
 }
