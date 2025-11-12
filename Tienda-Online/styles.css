@@ -59,6 +59,56 @@ a{
 
 
     /* JAVI ESCRIBIR AQUI*/
+    /* Lo que dice Iñigo de hacer que se actualice automáticamente 
+    el carrito no lo sabemos hacer todavía*/
+    
+/* Productos */
+.productos {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.producto {
+  border: 1px solid gray;
+  padding: 10px;
+  width: 180px;
+  text-align: center;
+}
+
+.producto img {
+  width: 100%;
+  height: 100px;
+  object-fit: cover;
+}
+
+.producto button {
+  margin-top: 5px;
+}
+
+/* Carrito */
+.carrito {
+  border: 1px solid gray;
+  padding: 10px;
+  width: 300px;
+  margin: 30px auto;
+}
+
+.carrito table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.carrito th, .carrito td {
+  border: 1px solid gray;
+  padding: 5px;
+  text-align: left;
+}
+
+.carrito h2 {
+  text-align: center;
+}
 
 
 
