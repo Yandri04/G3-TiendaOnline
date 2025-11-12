@@ -1,42 +1,46 @@
-*{
+/* ajustes contenido */
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-
-html{
+/* establecer tamaño fuente para que media trabaje correctamente */
+html {
     font-size:16px;
+    font-family: "Roboto", sans-serif;
 }
 
+/* para poder visualizarse correctamente en live preview de microsoft */
 @media (max-width: 900px) {
   html {
-    font-size: 14px;
+    font-size: 11.5px;
   }
 }
 
-@media (max-width: 600px) {
-  html {
-    font-size: 12px;
-  }
+/* contenedor navbar */
+header {
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    height:4rem;
+    width:auto;
+    background-color:rgb(145, 22, 22);
 }
 
-header{
-display:flex;
-justify-content: center;
-align-items:center;
-height:4rem;
-width:auto;
-background-color:rgb(145, 22, 22);
-/* border-radius: 90px, 80px 90px 80px; */
-    }
+/* quitar decoracion links */
+header a { 
+    text-decoration: none;
+    color:black;
+    line-height: 3.5rem;
+}
 
  /* cambio de estilo para facilitar visualizacion*/
 .navbtn:hover {
-background-color:red;
+    background-color:red;
 }
 
 /* quitar estilo lista y ajustar botones + cambiar cursor */
-.navbtn{
+.navbtn {
     list-style-type: none;
     float:left;
     background-color:green;
@@ -48,15 +52,8 @@ background-color:red;
     padding: 0rem 1rem 0rem 1rem
 }
 
-/* quitar decoracion links */
-a{ 
-    text-decoration: none;
-    color:black;
-    line-height: 3.5rem;
-}
-
 /* presentacion "llamativa" */
-.container-pres{
+.container-pres {
     background-color:aqua;
     height: 15rem;
     width:98%;
@@ -67,9 +64,10 @@ a{
     border-radius:1rem;
 }
 
-.geometria{
+/* forma llamativa */
+.geometria {
     position:absolute;
-      background-color:rgb(0, 255, 8);
+    background-color:rgb(0, 255, 8);
     height: 13rem;
     width:15rem;
     margin-left:1rem;
@@ -77,14 +75,14 @@ a{
     border-radius:1rem 1rem 10rem 1rem;
 }
 
-h1{
+/* ajustar texto */
+.geometria h1 {
     padding-top:2rem;
     margin-left:1rem;
-    font-family: "Roboto", sans-serif;
 }
 
-h3{
-    font-family: "Roboto", sans-serif;
+/* ajustar texto */
+.geometria h3 {
     padding-top:2rem;
     line-height: 0%;
     margin-left:1rem;
@@ -92,28 +90,29 @@ h3{
     font-weight: 900;
 }
 
-p{
+/* ajustar texto */
+.geometria p {
     padding-top:2rem;
     margin-left:1rem;
     font-size:1.75rem;
-    font-family: "Roboto", sans-serif;
     font-weight: bold;
 }
 
-.titular{
+/* ajustar texto */
+.titular {
     font-weight:bold;
     text-transform: uppercase;
     text-shadow: 0.2rem 0.1rem 0px rgb(255, 0, 0);
     padding-top:1rem;
     text-align: center;
-    font-family: "Roboto", sans-serif;
     font-weight: 900;
     font-size:4rem;
 }
 
-button{
+/* ajustar apariencia boton */
+.container-pres button {
     display:block;
-    height:4rem;
+    height:3.75rem;
     width:7rem;
     margin:auto;
     margin-top:1.5rem;
@@ -122,14 +121,21 @@ button{
     border-radius:0.5rem;
     cursor:pointer;
 }
+
+/* ajustar texto */
+.container-pres button a {
+    text-decoration: none;
+    color:black;
+}
+
 .imagenes {
-position:absolute;
-/* background-color:red; */
-height:15rem;
-width: 15rem;
-margin-left:15rem;
-right:0px;
-margin-top:-11.5em;
+    position:absolute;
+    /* background-color:red; */
+    height:15rem;
+    width: 15rem;
+    margin-left:15rem;
+    right:0px;
+    margin-top:-11.5em;
 }
 
 .imagenes .img1 {
