@@ -7,6 +7,15 @@ Yandri Culqui
 Javier Fabo
 Aritz cobo
 Alvaro marturet
+PRINCIPAL:
+
+1.TODO CSS QUE NECESITEN PONERLO EN SU ESPACIO ESPECIFICADO EN EL PROYECTO
+
+2.CADA UNO DEBE CREAR SU PROPIA RAMA CON SUS CAMBIOS Y DESPUES REALIZAR CAMBIOS A SU HTML HAY NO SUBIR AL MAIN 
+
+AL FINAL HAREMOS UN NO HACER MERGUE HAZTA LO ULTIMO 
+
+
 
 IDE a usar: vs code
 
@@ -19,11 +28,13 @@ Diseño y desarrollo
 de productos tecnológicos).
 ○ Un breve párrafo sobre la tienda.
 
+
 ● Catálogo de productos:  YANDRI CULQUI
 ○ Crear una sección que contenga al menos 5 productos con su nombre,
 imagen y precio.
 ○ Los productos deben mostrarse en un formato tipo "tarjeta" (puede ser
 un layout en grid o en flexbox).
+
 
 ● Carrito de compras: Javi fabo
 ○ Al lado de cada producto debe haber un botón que permita agregarlo al
@@ -32,10 +43,11 @@ carrito.
 seleccionados, con un precio total actualizado.
 ○ Incluir una opción para eliminar productos del carrito.
 
+
 ● Contacto: Aritz
 ○ Debe contener una descripción con una dirección y un teléfono de
 contacto.
-○ Opcional: Deberá incluír un formulario para mandar un mensaje a la
+○  Deberá incluír un formulario para mandar un mensaje a la
 web. 
 ● Estilos: que todos tengan acceso y aqui se pondran todo lso css
 ○ El archivo styles.css debe contener estilos modernos para el diseño de
