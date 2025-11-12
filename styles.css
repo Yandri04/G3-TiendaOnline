@@ -31,23 +31,27 @@ header {
 header a { 
     text-decoration: none;
     color:black;
-    line-height: 3.5rem;
-}
-
- /* cambio de estilo para facilitar visualizacion*/
-.navbtn:hover {
-    background-color:red;
 }
 
 /* quitar estilo lista y ajustar botones + cambiar cursor */
 .navbtn {
     list-style-type: none;
     float:left;
+    display: flex;
+    align-items: center;
     height: 4rem;
     cursor:pointer;
     text-align: center;
     padding: 0rem 1rem 0rem 1rem;
+    transition: background-color 200ms ease, font-weight 200ms ease;
 }
+
+ /* cambio de estilo para facilitar visualizacion*/
+.navbtn:hover {
+     background-color:rgb(191, 26, 26);
+     font-weight: 500;
+}
+
 
 /* presentacion "llamativa" */
 .container-pres {
