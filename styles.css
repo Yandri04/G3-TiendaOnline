@@ -122,4 +122,34 @@ button{
     border-radius:0.5rem;
     cursor:pointer;
 }
+.imagenes {
+position:absolute;
+/* background-color:red; */
+height:15rem;
+width: 15rem;
+margin-left:15rem;
+right:0px;
+margin-top:-11.5em;
+}
+
+.imagenes .img1 {
+    position:absolute;
+    width: 60%;
+    margin-top:2rem;
+}
+
+.imagenes .img2 {
+    position:absolute;
+    margin-top:2rem;
+    margin-left:6rem;
+    width: 50%;
+}
+
+.imagenes .img3 {
+    position:absolute;
+  width: 50%;
+  margin-top:5rem;
+  margin-left:6rem;
+  z-index:1000;
+}
 
