@@ -43,13 +43,10 @@ header a {
 .navbtn {
     list-style-type: none;
     float:left;
-    background-color:green;
-    margin: 0em 1rem 0em 1rem;
     height: 4rem;
-    /* width: 3em; */
     cursor:pointer;
     text-align: center;
-    padding: 0rem 1rem 0rem 1rem
+    padding: 0rem 1rem 0rem 1rem;
 }
 
 /* presentacion "llamativa" */
@@ -156,9 +153,23 @@ individual y por eso separadas */
 
 .imagenes .img3 {
     position:absolute;
-  width: 50%;
-  margin-top:5rem;
-  margin-left:6rem;
-  z-index:1000;
+    width: 50%;
+    margin-top:5rem;
+    margin-left:6rem;
+    z-index:1000;
 }
 
+#descripcion{
+    background-color:pink;
+    height:8rem;
+    width:48rem;
+    left:0;
+    right:0;
+    margin:auto;
+    margin-top:2rem;
+    text-align: center;
+    padding: 1rem 0rem 0rem 1rem; /* padding arriba y izq */
+    border: 0.25rem red dotted;
+    border-radius:0.5rem;
+    text-align: justify;
+}
