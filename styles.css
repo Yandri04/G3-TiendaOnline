@@ -4,19 +4,39 @@
     box-sizing: border-box;
 }
 
+html{
+    font-size:16px;
+}
+
+@media (max-width: 900px) {
+  html {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 600px) {
+  html {
+    font-size: 12px;
+  }
+}
+
 header{
+display:flex;
+justify-content: center;
+align-items:center;
 height:4rem;
 width:auto;
-background-color:rgb(97, 95, 94);
+background-color:rgb(145, 22, 22);
 /* border-radius: 90px, 80px 90px 80px; */
     }
 
-.container li:hover {
+ /* cambio de estilo para facilitar visualizacion*/
+.navbtn:hover {
 background-color:red;
 }
 
-
-.container li{
+/* quitar estilo lista y ajustar botones + cambiar cursor */
+.navbtn{
     list-style-type: none;
     float:left;
     background-color:green;
@@ -28,25 +48,78 @@ background-color:red;
     padding: 0rem 1rem 0rem 1rem
 }
 
-
-a{
+/* quitar decoracion links */
+a{ 
     text-decoration: none;
     color:black;
-    /* height:4rem; */
     line-height: 3.5rem;
 }
 
-
-
-.container-shop{
-    position:absolute;
-    width:60rem;
+/* presentacion "llamativa" */
+.container-pres{
+    background-color:aqua;
+    height: 15rem;
+    width:98%;
     left:0;
     right:0;
-    margin: 0 auto;
-    height:30rem;
-    background-color:rgba(255, 192, 203, 0.555);
-    top:9rem;
-    border: solid 0.1rem;
-    border-radius:1%;
+    margin:auto;
+    margin-top:1rem;
+    border-radius:1rem;
 }
+
+.geometria{
+    position:absolute;
+      background-color:rgb(0, 255, 8);
+    height: 13rem;
+    width:15rem;
+    margin-left:1rem;
+    margin-top:1rem;
+    border-radius:1rem 1rem 10rem 1rem;
+}
+
+h1{
+    padding-top:2rem;
+    margin-left:1rem;
+    font-family: "Roboto", sans-serif;
+}
+
+h3{
+    font-family: "Roboto", sans-serif;
+    padding-top:2rem;
+    line-height: 0%;
+    margin-left:1rem;
+    font-size:4rem;
+    font-weight: 900;
+}
+
+p{
+    padding-top:2rem;
+    margin-left:1rem;
+    font-size:1.75rem;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+}
+
+.titular{
+    font-weight:bold;
+    text-transform: uppercase;
+    text-shadow: 0.2rem 0.1rem 0px rgb(255, 0, 0);
+    padding-top:1rem;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-size:4rem;
+}
+
+button{
+    display:block;
+    height:4rem;
+    width:7rem;
+    margin:auto;
+    margin-top:1.5rem;
+    background-color:rgb(232, 237, 97);
+    border: 0.2rem yellow solid;
+    border-radius:0.5rem;
+    cursor:pointer;
+}
+
