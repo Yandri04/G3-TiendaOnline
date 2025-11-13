@@ -1,43 +1,77 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-header{
-height:4em;
-width:auto;
-background-color:rgb(97, 95, 94);
-border-radius: 90px, 80px 90px 80px;
-    }
-
-#container li:hover{
-background-color:red;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 
-#container li{
-    list-style-type: none;
-    float:left;
-    background-color:green;
-    margin: 1em;
-    margin-top: 0em;
-    height: 4em;
-    /* width: 3em; */
-    cursor:pointer;
-    text-align: center;
+/* YANDRI  ESCRIBIR AQUI SU CSS */
+img{
+    width: 150px;
+    height: auto;
+}
+
+.container2 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin: 40px auto;
+  max-width: 1200px;
+
 
 }
 
+.container2 div{
 
     /* YANDRI  ESCRIBIR AQUI SU CSS asdadada*/
+    border-radius: 30px;
+}
+
+.imgs1, .imgs2, .imgs3, .imgs4, .imgs5 {
+    border: 2px solid #333;
+    border-radius: 10px;
+padding: 10px;
+width: 200px;
+text-align: center;
+background-color: #fff;
+}
+
+.Características{
+    font-family: Arial;
+}
+.text{
+
+    font-family: Arial;
+    font-weight: bold;
+}
+
+.EncabezadoCA{
+    border: 2px beige;
+    padding: auto;
+    font-family: Arial;
+    text-align: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.loquiero{
+  display: flex;
+  justify-content: center; /* Centrado horizontal */
+  align-items: center;    /* Centrado vertical si tiene altura */
+
+    justify-items: center;
+    border: 1px solid black;
+    border-radius: 10%;
+}
+
+.loquiero a{
+    color: red;
+    text-decoration: none;
+}
 
 
-
-
-
-    /* JAVI ESCRIBIR AQUI*/
-
-
-
-    /* ARITZ ESCRIBIR AQUI */
+.Ps{
+    font-family: Arial;
+}
