@@ -162,6 +162,7 @@ individual y por eso separadas */
     z-index:1000;
 }
 
+/*contenedor descripcion */
 #descripcion{
     background-color:pink;
     height:8rem;
