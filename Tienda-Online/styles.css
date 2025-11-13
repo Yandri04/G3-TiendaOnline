@@ -63,6 +63,11 @@ a{
     el carrito no lo sabemos hacer todavía*/
     
 /* Productos */
+
+h1{
+  text-align: center;
+}
+
 .productos {
   display: flex;
   justify-content: center;
