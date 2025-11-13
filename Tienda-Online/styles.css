@@ -5,6 +5,188 @@
 }
 
 
+/*ALVARO/*
+/* ajustes contenido */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* establecer tamaño fuente para que media trabaje correctamente */
+html {
+    font-size:16px;
+    font-family: "Roboto", sans-serif;
+}
+
+/* para poder visualizarse correctamente en live preview de microsoft */
+@media (max-width: 900px) {
+  html {
+    font-size: 11.5px;
+  }
+}
+
+/* contenedor navbar */
+header {
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    height:4rem;
+    width:auto;
+    background-color:rgb(145, 22, 22);
+}
+
+/* quitar decoracion links */
+header a { 
+    text-decoration: none;
+    color:black;
+}
+
+/* quitar estilo lista y ajustar botones + cambiar cursor */
+.navbtn {
+    list-style-type: none;
+    float:left;
+    display: flex;
+    align-items: center;
+    height: 4rem;
+    cursor:pointer;
+    text-align: center;
+    padding: 0rem 1rem 0rem 1rem;
+    transition: background-color 200ms ease, font-weight 200ms ease;
+}
+
+ /* cambio de estilo para facilitar visualizacion*/
+.navbtn:hover {
+     background-color:rgb(191, 26, 26);
+     font-weight: 500;
+}
+
+
+/* presentacion "llamativa" */
+.container-pres {
+    background-color:aqua;
+    height: 15rem;
+    width:98%;
+    left:0;
+    right:0;
+    margin:auto;
+    margin-top:1rem;
+    border-radius:1rem;
+}
+
+/* forma llamativa */
+.geometria {
+    position:absolute;
+    background-color:rgb(0, 255, 8);
+    height: 13rem;
+    width:15rem;
+    margin: 1rem 0rem 0rem 1rem; /* padding arriba y izq */
+    border-radius:1rem 1rem 10rem 1rem;
+}
+
+/* ajustar texto */
+.geometria h1 {
+    padding-top:2rem;
+    margin-left:1rem;
+}
+
+/* ajustar texto */
+.geometria h3 {
+    padding-top:2rem;
+    line-height: 0%;
+    margin-left:1rem;
+    font-size:4rem;
+    font-weight: 900;
+}
+
+/* ajustar texto */
+.geometria p {
+    padding-top:2rem;
+    margin-left:1rem;
+    font-size:1.75rem;
+    font-weight: bold;
+}
+
+/* ajustar texto */
+.titular {
+    font-weight:bold;
+    text-transform: uppercase;
+    text-shadow: 0.2rem 0.1rem 0px rgb(255, 0, 0);
+    padding-top:1rem;
+    text-align: center;
+    font-weight: 900;
+    font-size:4rem;
+}
+
+/* ajustar apariencia boton */
+.container-pres button {
+    display:block;
+    height:3.75rem;
+    width:7rem;
+    margin:auto;
+    margin-top:1.5rem;
+    background-color:rgb(232, 237, 97);
+    border: 0.2rem yellow solid;
+    border-radius:0.5rem;
+    cursor:pointer;
+}
+
+/* ajustar texto */
+.container-pres button a {
+    text-decoration: none;
+    color:black;
+}
+
+/* container imagenes */
+.imagenes {
+    position:absolute;
+    /* background-color:red; */
+    height:15rem;
+    width: 15rem;
+    right:0px;
+    margin: -11.5rem 0rem 0rem 15rem; /* padding arriba y izq */
+}
+
+/* imagenes vistosas y con posicionamiento
+individual y por eso separadas */
+.imagenes .img1 {
+    position:absolute;
+    width: 60%;
+    margin-top:2rem;
+}
+
+.imagenes .img2 {
+    position:absolute;
+    margin-top:2rem;
+    margin-left:6rem;
+    width: 50%;
+}
+
+.imagenes .img3 {
+    position:absolute;
+     width: 50%; 
+    /*margin-top:5rem;
+    margin-left:6rem; */
+    margin: 5rem 0rem 0rem 6rem; /* padding arriba y izq */
+    z-index:1000;
+}
+
+/*contenedor descripcion */
+#descripcion{
+    background-color:pink;
+    height:8rem;
+    width:48rem;
+    left:0;
+    right:0;
+    margin:auto;
+    margin-top:2rem;
+    text-align: center;
+    padding: 1rem 0rem 0rem 1rem; /* padding arriba y izq */
+    border: 0.25rem red dotted;
+    border-radius:0.5rem;
+    text-align: justify;
+}
+
+
 /* YANDRI  ESCRIBIR AQUI SU CSS */
 img{
     width: 150px;
