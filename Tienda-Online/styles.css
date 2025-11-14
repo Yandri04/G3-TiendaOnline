@@ -180,7 +180,7 @@ individual y por eso separadas */
     margin:auto;
     margin-top:2rem;
     text-align: center;
-    padding: 1rem 0rem 0rem 1rem; /* padding arriba y izq */
+    padding: 1rem 1rem 0rem 1rem; /* padding arriba y izq */
     border: 0.25rem rgb(250, 51, 51) dotted;
     border-radius:0.5rem;
     text-align: justify;
