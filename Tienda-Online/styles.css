@@ -1,24 +1,13 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
+/*Genral*/
 
-/*ALVARO/*
-/* ajustes contenido */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-/* establecer tamaño fuente para que media trabaje correctamente */
-html {
-    font-size:16px;
-    font-family: "Roboto", sans-serif;
-}
 
 /* contenedor navbar */
-header {
+.cabecera {
     display:flex;
     justify-content: center;
     align-items:center;
@@ -27,7 +16,7 @@ header {
 }
 
 /* quitar decoracion links */
-header a { 
+.cabecera .enlaces { 
     text-decoration: none;
     color:black;
 }
@@ -45,7 +34,7 @@ header a {
     transition: background-color 200ms ease, font-weight 200ms ease;
 }
 
-.logo img{
+.logo #logotipo{
     width:50px;
 }
 
@@ -53,6 +42,14 @@ header a {
  /* cambio de estilo para facilitar visualizacion*/
 .navhov:hover {
      background-color:silver;
+}
+
+/*ALVARO/*
+
+/* establecer tamaño fuente para que media trabaje correctamente */
+.estilo-alvaro{
+    font-size:16px;
+    font-family: "Roboto", sans-serif;
 }
 
 /* presentacion "llamativa" */
@@ -78,14 +75,14 @@ header a {
 }
 
 /* ajustar texto */
-.geometria h1 {
+.geometria #titulo-tarjeta {
     padding-top:2rem;
     margin-left:1rem;
     color: #fff;
 }
 
 /* ajustar texto */
-.geometria h3 {
+.geometria #descuento {
     padding-top:2rem;
     line-height: 0%;
     margin-left:1rem;
@@ -95,7 +92,7 @@ header a {
 }
 
 /* ajustar texto */
-.geometria p {
+.geometria #parrafo {
     padding-top:2rem;
     margin-left:1rem;
     font-size:1.75rem;
@@ -116,7 +113,7 @@ header a {
 }
 
 /* ajustar apariencia boton */
-.container-pres button {
+.container-pres #boton {
     display:block;
     height:3.75rem;
     width:7rem;
@@ -129,7 +126,7 @@ header a {
 }
 
 /* ajustar texto */
-.container-pres button a {
+.container-pres #boton #lnk-contacto {
     text-decoration: none;
     color:black;
 }
@@ -184,7 +181,7 @@ individual y por eso separadas */
 
 
 /* YANDRI  ESCRIBIR AQUI SU CSS */
-img{
+.container2 img{
     width: 150px;
     height: auto;
 }
@@ -255,7 +252,7 @@ img{
 
 /* css de Aritz */
 
-body {
+.estilo-aritz {
     font-family: Arial, sans-serif;
     background: #f4f4f7;
     margin: 0;
@@ -264,20 +261,20 @@ body {
 }
 
 
-h1 {
+.estilo-aritz h1 {
     text-align: center;
     margin-bottom: 20px;
     color: #444;
 }
 
 
-h2 {
+.estilo-aritz h2 {
     margin-top: 30px;
     color: #555;
 }
 
 
-form {
+.estilo-aritz form {
     background: white;
     max-width: 500px;
     margin: 0 auto;
@@ -287,16 +284,16 @@ form {
 }
 
 
-label {
+.estilo-aritz label {
     font-weight: bold;
     display: block;
     margin-bottom: 6px;
 }
 
 
-input[type="text"],
-input[type="email"],
-textarea {
+.estilo-aritz input[type="text"],
+.estilo-aritz input[type="email"],
+.estilo-aritz textarea {
     width: 100%;
     padding: 10px;
     border: 1px solid #bbb;
@@ -306,15 +303,15 @@ textarea {
     transition: 0.2s ease;
 }
 
-input:focus,
-textarea:focus {
+.estilo-aritz input:focus,
+.estilo-aritz textarea:focus {
     border-color: #4A8DFF;
     outline: none;
     box-shadow: 0 0 4px rgba(74, 141, 255, 0.4);
 }
 
 
-button {
+.estilo-aritz button {
     width: 100%;
     padding: 12px;
     background-color: #4A8DFF;
@@ -326,22 +323,22 @@ button {
     transition: 0.2s ease;
 }
 
-button:hover {
+.estilo-aritz button:hover {
     background-color: #3A6FD9;
 }
 
 
-form p {
+.estilo-aritz form p {
     margin-bottom: 10px;
     line-height: 1.5;
 }
 
 
-a {
+.estilo-aritz a {
     color: #4A8DFF;
     text-decoration: none;
-}
+} 
 
-a:hover {
+.estilo-aritz a:hover {
     text-decoration: underline;
 }
