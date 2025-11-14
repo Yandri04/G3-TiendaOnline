@@ -156,7 +156,6 @@ individual y por eso separadas */
     position:absolute;
     width: 50%; 
     margin: 5rem 0rem 0rem 6rem; /* padding arriba y izq */
-    z-index:1000;
 }
 
 /*contenedor descripcion */
