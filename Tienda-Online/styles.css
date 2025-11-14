@@ -4,7 +4,6 @@
   box-sizing: border-box;
 }
 
-
 /*ALVARO/*
 /* ajustes contenido */
 * {
@@ -55,7 +54,6 @@ header a {
      font-weight: 500;
 }
 
-
 /* presentacion "llamativa" */
 .container-pres {
     background-color:chocolate;
@@ -82,7 +80,7 @@ header a {
 .geometria h1 {
     padding-top:2rem;
     margin-left:1rem;
-        color: #fff;
+    color: #fff;
 }
 
 /* ajustar texto */
@@ -101,7 +99,7 @@ header a {
     margin-left:1rem;
     font-size:1.75rem;
     font-weight: bold;
-        color: #fff;
+    color: #fff;
 }
 
 /* ajustar texto */
@@ -138,7 +136,6 @@ header a {
 /* container imagenes */
 .imagenes {
     position:absolute;
-    /* background-color:red; */
     height:15rem;
     width: 15rem;
     right:0px;
@@ -155,16 +152,13 @@ individual y por eso separadas */
 
 .imagenes .img2 {
     position:absolute;
-    margin-top:2rem;
-    margin-left:6rem;
+    margin: 2rem 0rem 0rem 6rem; /* padding arriba y izq */
     width: 50%;
 }
 
 .imagenes .img3 {
     position:absolute;
-     width: 50%; 
-    /*margin-top:5rem;
-    margin-left:6rem; */
+    width: 50%; 
     margin: 5rem 0rem 0rem 6rem; /* padding arriba y izq */
     z-index:1000;
 }
@@ -215,17 +209,16 @@ img{
 .imgs1, .imgs2, .imgs3, .imgs4, .imgs5 {
     border: 2px solid #333;
     border-radius: 10px;
-padding: 10px;
-width: 200px;
-text-align: center;
-background-color: #fff;
+    padding: 10px;
+    width: 200px;
+    text-align: center;
+    background-color: #fff;
 }
 
 .Características{
     font-family: Arial;
 }
 .text{
-
     font-family: Arial;
     font-weight: bold;
 }
@@ -240,10 +233,9 @@ background-color: #fff;
 }
 
 .loquiero{
-  display: flex;
-  justify-content: center; /* Centrado horizontal */
-  align-items: center;    /* Centrado vertical si tiene altura */
-
+    display: flex;
+    justify-content: center; /* Centrado horizontal */
+    align-items: center;    /* Centrado vertical si tiene altura */
     justify-items: center;
     border: 1px solid black;
     border-radius: 10%;
