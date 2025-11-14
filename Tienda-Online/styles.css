@@ -45,16 +45,14 @@ header a {
     transition: background-color 200ms ease, font-weight 200ms ease;
 }
 
-.navbtn .logo {
-    margin-top:1rem;
-    width:100px;
+.logo img{
+    width:50px;
 }
 
 
  /* cambio de estilo para facilitar visualizacion*/
 .navhov:hover {
      background-color:silver;
-     font-weight: 500;
 }
 
 /* presentacion "llamativa" */
