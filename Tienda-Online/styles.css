@@ -1,4 +1,4 @@
-/*Genral*/
+/*General*/
 
 * {
     margin: 0;
@@ -6,8 +6,10 @@
     box-sizing: border-box;
 }
 
+/*ALVARO/*
+
 /* contenedor navbar */
-.cabecera {
+.estilo-alvaro header {
     display:flex;
     justify-content: center;
     align-items:center;
@@ -16,7 +18,7 @@
 }
 
 /* quitar decoracion links */
-.cabecera .enlaces { 
+.estilo-alvaro header a { 
     text-decoration: none;
     color:black;
 }
@@ -34,18 +36,14 @@
     transition: background-color 200ms ease, font-weight 200ms ease;
 }
 
-.logo #logotipo{
+.logo img{
     width:50px;
 }
-
 
  /* cambio de estilo para facilitar visualizacion*/
 .navhov:hover {
      background-color:silver;
 }
-
-/*ALVARO/*
-
 /* establecer tamaño fuente para que media trabaje correctamente */
 .estilo-alvaro{
     font-size:16px;
@@ -75,14 +73,14 @@
 }
 
 /* ajustar texto */
-.geometria #titulo-tarjeta {
+.geometria h1 {
     padding-top:2rem;
     margin-left:1rem;
     color: #fff;
 }
 
 /* ajustar texto */
-.geometria #descuento {
+.geometria h3 {
     padding-top:2rem;
     line-height: 0%;
     margin-left:1rem;
@@ -92,7 +90,7 @@
 }
 
 /* ajustar texto */
-.geometria #parrafo {
+.geometria p {
     padding-top:2rem;
     margin-left:1rem;
     font-size:1.75rem;
@@ -113,7 +111,7 @@
 }
 
 /* ajustar apariencia boton */
-.container-pres #boton {
+.container-pres button {
     display:block;
     height:3.75rem;
     width:7rem;
@@ -126,7 +124,7 @@
 }
 
 /* ajustar texto */
-.container-pres #boton #lnk-contacto {
+.container-pres button a {
     text-decoration: none;
     color:black;
 }
