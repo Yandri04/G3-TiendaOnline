@@ -17,9 +17,6 @@ html {
     font-family: "Roboto", sans-serif;
 }
 
-/* para poder visualizarse correctamente en live preview de microsoft */
-
-
 /* contenedor navbar */
 header {
     display:flex;
@@ -48,8 +45,14 @@ header a {
     transition: background-color 200ms ease, font-weight 200ms ease;
 }
 
+.navbtn .logo {
+    margin-top:1rem;
+    width:100px;
+}
+
+
  /* cambio de estilo para facilitar visualizacion*/
-.navbtn:hover {
+.navhov:hover {
      background-color:silver;
      font-weight: 500;
 }
